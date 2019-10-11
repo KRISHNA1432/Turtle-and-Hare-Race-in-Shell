@@ -37,17 +37,17 @@ Hare()
 
 {
 
-while (not finish)
+	while (not finish)
 
-{
+	{
 
-while (Turtle is far behind)
+		while (Turtle is far behind)
 
-Sleep(for_a_while);
+		Sleep(for_a_while);
 
-RunLikeCrazy_A_bit();
+		RunLikeCrazy_A_bit();
 
-}
+	}
 
 }
 
@@ -55,17 +55,17 @@ God()
 
 {
 
-while (game not over)
+	while (game not over)
 
-{
+	{
 
-wait for keyboard;
+		wait for keyboard;
 
-choose hare or turtle from keyboard;
+		choose hare or turtle from keyboard;
 
-reposition hare or turtle;
+		reposition hare or turtle;
 
-}
+	}
 
 }
 
@@ -73,17 +73,17 @@ Report()
 
 {
 
-while (game not over)
+	while (game not over)
 
-{
+	{
 
-report positions of hare and turtle;
+		report positions of hare and turtle;
 
-/* use ncurses for graphics if you are ambitious,
+		/* use ncurses for graphics if you are ambitious,
 
-printf otherwise */
+		printf otherwise */
 
-}
+	}
 
 }
 
@@ -91,19 +91,19 @@ Main()
 
 {
 
-fork {
+	fork {
 
-Tutle();
+		Tutle();
 
-Hare();
+		Hare();
 
-God();
+		God();
 
-Report();
+		Report();
 
-}
+	}
 
-loop until somebody wins;
+	loop until somebody wins;
 
 }
 
