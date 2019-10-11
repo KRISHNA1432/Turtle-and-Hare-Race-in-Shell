@@ -117,6 +117,7 @@ processes fora.Turtle b.Hare c.God d.Reporter
 Linux IPC (message passing) mechanisms: pipes.
 
 Task 2: Threads:-
+
 Now, develop the same application (hare and turtle) using Linux pthreads (shared memory).
 Notice that you have shared memory between threads so you do not need explicit
 communication channels. You can communicate using shared variables. However, you will
