@@ -1,9 +1,9 @@
 # Turtle-and-Hare-Race-in-Shell
 Turtle and hare race shell script simulator with real time inter process communication to behave randomly. With wild card entries like, GOD to manipulate positions of racers.
 
-System Programming
+						#System Programming
 
-Assignment: Hare and Turtle
+						Assignment: Hare and Turtle
 
 Prerequisite:- Carefully read the following man pages: signal, kill, ualarm, umask, sigprocmask,
 gettimeofday, wait, exec, fork, pipe,open, ipc, clone, msgctcl, msgsnd, msgrcf, rand, srand48.
@@ -129,5 +129,7 @@ Reading Material:- For pthreads tutorial, you may go through this link:
 http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
 
 Tests:-
+
 ● The current outcome of the race should be displayed after fixed intervals.
+
 ● Try varying the speed and the sleeping time of the hare to see different outcomes.
